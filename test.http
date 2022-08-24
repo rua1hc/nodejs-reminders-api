@@ -1,0 +1,24 @@
+GET http://localhost:8000/reminders/
+
+###
+
+POST http://localhost:8000/reminders
+content-type: application/json
+
+{
+    "title": "new post 2"
+}
+
+###
+
+PUT http://localhost:8000/reminders/1661360122343
+content-type: application/json
+
+{
+    "title": "new put 1"
+}
+
+###
+
+DELETE http://localhost:8000/reminders/1
+
